@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/p/dev/examenFlutter/pie/pie/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "/Users/p/dev/pie/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/p/dev/examenFlutter/pie/pie/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/Users/p/dev/pie/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

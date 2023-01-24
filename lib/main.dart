@@ -1,19 +1,22 @@
+import 'package:pie/ui/barChart.dart';
 import 'package:flutter/material.dart';
-import 'package:pie/ui/pieChart.dart';
 
-void main() => runApp(MyApp());
+void main() {
+  runApp(const MyApp());
+}
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
+  const MyApp({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'pie, linear, bar charts',
       theme: ThemeData(
-        //primaryColor: colors.green,
-      ),
-      home: ChartsPage(),
+          primarySwatch: Colors.green,
+          textTheme: const TextTheme(bodyText1:TextStyle(fontSize: 8.0),
+    ),),
+      home: BarChartApp(),
     );
   }
 }

@@ -1,7 +1,3 @@
-pie
-2.18
-file:///Users/p/dev/examenFlutter/pie/pie/
-file:///Users/p/dev/examenFlutter/pie/pie/lib/
 async
 2.14
 file:///Users/p/dev/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.9.0/
@@ -122,4 +118,8 @@ flutter_test
 2.17
 file:///Users/p/dev/flutter/packages/flutter_test/
 file:///Users/p/dev/flutter/packages/flutter_test/lib/
+pie
+2.18
+file:///Users/p/dev/pie/
+file:///Users/p/dev/pie/lib/
 2
