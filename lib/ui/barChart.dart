@@ -36,7 +36,7 @@ class _BarChartAppState extends State<BarChartApp> {
     return [
       charts.Series<BarModel, String>(
         data: bar,
-        id: 'sales',
+        id: 'barID',
         colorFn: (_, __) => charts.MaterialPalette.teal.shadeDefault,
         domainFn: (BarModel barModel, _) => barModel.origen,
         measureFn: (BarModel barModel, _) => barModel.total,
@@ -48,13 +48,13 @@ class _BarChartAppState extends State<BarChartApp> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("trending"),
+        title: Text("Gráficas"),
       ),
       body: Center(
         child: loading
             ? CircularProgressIndicator()
             : Container(
-          height: 200,
+          height: 120,
           child: charts.BarChart(
             _createSampleData(),
             animate: true,

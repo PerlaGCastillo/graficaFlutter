@@ -1,4 +1,5 @@
 import 'package:pie/ui/barChart.dart';
+//import 'package:pie/ui/pieChart.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.green,
           textTheme: const TextTheme(bodyText1:TextStyle(fontSize: 8.0),
     ),),
-      home: BarChartApp(),
+      home: const BarChartApp(),
     );
   }
 }
