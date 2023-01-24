@@ -1,0 +1,4 @@
+#Mon Jan 23 16:42:40 CST 2023
+base.0=/Users/p/dev/examenFlutter/pie/pie/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
